@@ -1,0 +1,16 @@
+{
+    "name": "Schul Noten",
+    "version": "1.0.0",
+    "slug": "schul_noten",
+    "description": "Ein Add-on, das die Schulnoten über eine Webseite abruft.",
+    "arch": ["amd64", "armv7", "armhf"],
+    "startup": "application",
+    "boot": "auto",
+    "options": {},
+    "schema": {},
+    "ports": {
+      "5000/tcp": 5000
+    },
+    "host_network": false
+  }
+  
